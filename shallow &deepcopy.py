@@ -1,0 +1,9 @@
+k=[1,2,[4,5]]
+m=k.copy()
+k[2][1].append(6)
+print(k)
+print(m)
+n=k.copy.deepcopy()
+k[1].append(3)
+print(n)
+print(k)
